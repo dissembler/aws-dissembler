@@ -9,6 +9,8 @@ import (
 
 // S3Spec defines the desired state of S3
 type S3Spec struct {
+	accessKey       string
+	secretAccessKey string
 	// INSERT ADDITIONAL SPEC FIELDS - desired state of cluster
 	// Important: Run "operator-sdk generate k8s" to regenerate code after modifying this file
 }
